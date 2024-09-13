@@ -4,15 +4,14 @@
 @import "{{ site.theme }}";
 
 #project_title {
-    font-size: 1.6em;
+    font-size: 1.0em;
 }
 
 #project_tagline {
-    font-size: 1.4em;
+    font-size: 0.8em;
 }
 
-@media screen and (max-width: 480px) {
-    .outer {
-        min-width: 300%;
-    }
+.copyright {
+    font-size: 0.9em;
 }
+
